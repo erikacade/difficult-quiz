@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HARDEST EVER The Office Quiz!</title>
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+   <div class="grid">
+      <div id="quiz">
+         
+            <h1>The<i class="fas fa-briefcase"></i> <i class="fas fa-user-tie"></i><br>Office: HARDEST QUIZ EVER! </h1>
+           
+
+         <p id="question"></p>
+
+         <div class="buttons"> <!--answer choices as buttons-->
+            <button id="btn0"><span id="choice0"></span></button>
+            <button id="btn1"><span id="choice1"></span></button>
+            <button id="btn2"><span id="choice2"></span></button>
+            <button id="btn3"><span id="choice3"></span></button>
+         </div>
+      
+         
+         <footer>
+            <p id="progress">Question 1 of x.</p>
+            
+
+         </footer>
+
+      </div> <!--end Quiz-->
+      <button type="button" onClick="refreshPage()" id="resetgame">Reset</button>
+   </div> <!--end Grid-->
+
+   <script src="quiz_controller.js"></script>
+   <script src="question.js"></script>
+   <script src="app.js"></script>
+
+</body>
+</html>

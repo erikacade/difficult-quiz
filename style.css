@@ -1,0 +1,156 @@
+body {
+   background-color: #eee;
+}
+
+.grid {
+   width: 55%;
+   height: 100%;
+   margin: 0 auto;
+   background-color: #fff;
+   padding: 10px 50px 50px 50px;
+  /* border: 2px solid #ca0; */
+   box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1 {
+   font-size: 2em;
+   font-family: Arial, Verdana, sans-serif;
+   background-color: #000;
+   text-align: left;
+   color: #fff;
+   line-height: 0.9em;
+   padding: 20px;
+   border-radius: 10px;
+   border-style: outset;
+   
+}
+
+.fas {
+   float: right;
+   padding-left: 10px;
+   font-size: 1.5em;
+}
+
+.grid #question {
+   font-size: 2.2em;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 400;
+   color: #2e2e2e;
+   /*min-height: 75px; */
+   height: 120px;
+   /*border: 2px #0ce solid;*/
+   text-align: center;
+   padding-bottom: 0;
+}
+
+.buttons {
+   border-bottom: 1px #000 solid;
+   padding-bottom: 20px;
+   display: block;
+   text-align: center;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+   background-color: #fff;
+   width: 500px;
+   font-size: 1.8em;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 400;
+   color: #121212;
+   border: 2px solid #121212;
+   border-radius: 8px;
+   margin: 10px 40px 10px 0px;
+   padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+   cursor: pointer;
+   background-color: #121212;
+   color: #fff;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+   outline: 0;
+}
+
+#progress {
+   color: #2e2e2e;
+   font-size: 1.65 em;
+   font-family: 'Courier New', Courier, monospace;
+}
+#score {
+   color: #5a6772;
+   text-align: center;
+   font-size: 2em;
+   font-family: 'Courier New', Courier, monospace;
+   text-transform: capitalize;
+   line-height: 1.3em;
+   padding: 5px;
+
+   border: 3px solid #d3000;
+}
+
+#resetgame {
+   background-color: #000;
+   color: #fff;
+   padding: 15px;
+   border-radius: 6px;
+   border: none;
+   font-size: 1.3em;
+   font-weight: 600;
+   font-family: Arial, Verdana, sans-serif;
+}
+#resetgame:hover {
+   cursor: pointer;
+   background-color: #D30000;
+}
+
+@media only screen and (max-width: 1000px) {
+   #btn0, #btn1, #btn2, #btn3 {
+      width: 100%;
+   }
+   #score {
+      font-size: 1.5em;
+      line-height: 1em;
+      padding: 5px;
+   }
+}
+
+@media only screen and (max-width: 700px) {
+
+   .grid {
+      padding: 20px;
+   }
+   .grid h1 {
+      font-size: 1.6em;
+      font-family: Arial, Verdana, sans-serif;
+      background-color: #000;
+      text-align: left;
+      color: #fff;
+      line-height: 1em;
+      padding: 12px;
+      border-radius: 10px;
+   }
+
+   .grid #question {
+      font-size: 1.5em;
+      font-weight: 600;
+      min-height: 100px;
+   }
+
+   .buttons {
+      padding: 0;
+      margin: 0 auto;
+   }
+
+   #btn0, #btn1, #btn2, #btn3 {
+      background-color: #fff;
+      width: 100%;
+      font-size: 1.5em;
+   }
+
+   #score {
+      padding: 5px;
+      font-size: 1.4em;
+      line-height: 1em;
+}
