@@ -133,9 +133,15 @@ body {
       border-radius: 10px;
    }
 
+   .fas {
+      float: right;
+      padding-left: 10px;
+      font-size: 1em;
+   }
+
    .grid #question {
       font-size: 1.3em;
-      line-height: .9em;
+      line-height: 1em;
       min-height: 100px;
       overflow: visible;
    }
@@ -158,5 +164,5 @@ body {
    #score {
       padding: 5px;
       font-size: 1.2em;
-      line-height: .9em;
+      line-height: 0.95em;
 }
